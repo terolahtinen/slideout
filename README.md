@@ -1,5 +1,7 @@
 # Side slideout box for Magento 2
 
+![image](screenshot.png)
+
 This module implements an information/promotion/contact me/whatever box that slides out on hover.
 
 The content can be set using Magento CMS.
