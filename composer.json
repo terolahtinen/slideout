@@ -1,0 +1,28 @@
+{
+    "name": "gelo/slideout",
+    "description": "side slideout box",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "email": "contact@gelo.fi",
+            "name": "Gelo"
+        },
+        {
+            "email": "tero.lahtinen@gelo.fi",
+            "name": "Tero Lahtinen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Gelo\\Slideout\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

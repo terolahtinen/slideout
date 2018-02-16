@@ -1,0 +1,64 @@
+@media only screen and (min-width: 800px) {
+    #gelo-slideout {
+    	position: fixed;
+    	top: 450px;
+    	right: 0;
+    	width: 55px;
+    	height: 120px;
+    	padding: 12px 0;
+    	text-align: center;
+    	background: #6DAD53;
+    	-webkit-transition-duration: 0.3s;
+    	-moz-transition-duration: 0.3s;
+    	-o-transition-duration: 0.3s;
+    	transition-duration: 0.3s;
+    	-webkit-border-radius: 5px 0 0 5px;
+    	-moz-border-radius: 5px 0 0 5px;
+    	border-radius: 5px 0 0 5px;
+    	z-index: 1;
+    }
+    #gelo-slideout-inner {
+    	position: fixed;
+    	top: 450px;
+    	right: -250px;
+    	background: #6DAD53;
+    	width: 200px;
+    	padding: 25px;
+    	min-height: 130px;
+    	-webkit-transition-duration: 0.3s;
+    	-moz-transition-duration: 0.3s;
+    	-o-transition-duration: 0.3s;
+    	transition-duration: 0.3s;
+    	text-align: left;
+    	-webkit-border-radius: 0 0 0 5px;
+    	-moz-border-radius: 0 0 0 5px;
+    	border-radius: 0 0 0 5px;
+    }
+    #gelo-slideout-inner .content {
+    	width: 190px;
+    	min-height: 130px;
+    	margin-bottom: 6px;
+    	background: white;
+    	padding: 1em;
+    }
+    #gelo-slideout:hover {
+    	right: 250px;
+    }
+    #gelo-slideout:hover #gelo-slideout-inner {
+    	right: 0;
+    }
+    
+    #gelo-slideout-header {
+         position: absolute;
+        top: 50%;
+        left: 50%;
+      transform: translateX(-50%) translateY(-50%)rotate(-90deg);
+      color: white;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+}
+@media only screen and (max-width: 800px), print {
+  #gelo-slideout { display: none; }
+}
+
